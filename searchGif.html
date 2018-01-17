@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gif Site</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="searchGif.css">
+	<link href="https://fonts.googleapis.com/css?family=Joti+One|Roboto" rel="stylesheet"> 
+</head>
+<body>
+	<nav>
+
+		<div class="nav-container">
+
+			<h1 class="heading-text">HazeGif</h1>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Search</a></li>
+				<li><a href="#">Random Gif</a></li>
+				<li><a href="#">Sign In</a></li>
+			</ul>
+
+		</div>
+
+	</nav>
+
+	<main>
+
+		<div class="main-container">
+			<h2 class="text-dark">Search Gifs</h2>
+
+			<form action="index.html" method="post" class="searchGif" id="getGif">
+				<input id="queryString" type="text" name="query">
+				<input id="submitQuery" type="submit" name="submit">
+			</form>
+
+			<span id="gifGoesHere"></span>
+
+		</div>
+	
+	</main>
+	
+
+<script type="text/javascript" src="giphy.js"></script>
+</body>
+</html>
