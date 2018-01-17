@@ -1,0 +1,47 @@
+html, body, h1, h2, h3, h4, h5 {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+	width: 100%;
+}
+body {
+	background-color: black;
+	font-family: 'Roboto', sans-serif;
+}
+nav {
+	background: #0093D4;
+}
+.nav-container {
+	width: 90%;
+	margin: 0 auto;
+}
+nav ul {
+	list-style: none;
+}
+nav ul li {
+	display: inline-block;
+}
+main {
+	text-align: center;
+	height: 100%;
+}
+.main-container {
+	width: 65%;
+	margin: 0 auto;
+	background: #FFFFFF;
+	height: 80%;
+}
+form {
+
+}
+#gifGoesHere {
+	padding-top: 30px;
+}
+.heading-text {
+	font-size: 30px;
+	font-family: 'Joti One', cursive;
+}
+.text-dark {
+	color: #000000;
+}
